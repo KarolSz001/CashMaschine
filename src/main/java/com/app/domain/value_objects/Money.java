@@ -14,6 +14,8 @@ public class Money {
 
     private BigDecimal value;
 
+
+
     public Money() {
         this.value = BigDecimal.ZERO;
     }
@@ -44,7 +46,7 @@ public class Money {
 
     private BigDecimal init(String value) {
         if (value == null || !value.matches("(\\d+\\D)?\\d+")) {
-            throw new MoneyException("moeny value is not correct");
+            throw new MoneyException("money value is not correct");
         }
         return new BigDecimal(value);
     }
