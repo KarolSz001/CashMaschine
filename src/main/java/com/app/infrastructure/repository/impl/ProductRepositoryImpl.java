@@ -22,7 +22,6 @@ public class ProductRepositoryImpl implements ProductRepository {
 
     @Override
     public List<Product> saveAll(List<Product> items) {
-
         return jpaProductRepository.saveAll(items);
     }
 
@@ -32,8 +31,8 @@ public class ProductRepositoryImpl implements ProductRepository {
     }
 
     @Override
-    public List<Product> findAllById(List<Long> longs) {
-        return jpaProductRepository.findAllById(longs);
+    public List<Product> findAllById(List<Long> items) {
+        return jpaProductRepository.findAllById(items);
     }
 
     @Override
@@ -43,7 +42,6 @@ public class ProductRepositoryImpl implements ProductRepository {
 
     @Override
     public Optional<Product> delete(Long aLong) {
-
         var product = findById(aLong);
         jpaProductRepository.deleteById(aLong);
         return product;
