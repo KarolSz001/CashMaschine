@@ -22,26 +22,30 @@ public class ProductRepositoryImpl implements ProductRepository {
 
     @Override
     public List<Product> saveAll(List<Product> items) {
-        return null;
+
+        return jpaProductRepository.saveAll(items);
     }
 
     @Override
     public List<Product> findAll() {
-        return null;
+        return jpaProductRepository.findAll();
     }
 
     @Override
     public List<Product> findAllById(List<Long> longs) {
-        return null;
+        return jpaProductRepository.findAllById(longs);
     }
 
     @Override
     public Optional<Product> findById(Long aLong) {
-        return Optional.empty();
+        return Optional.of(jpaProductRepository.findById(aLong).orElseThrow(()->new NullPointerException("NO FOUND")));
     }
 
     @Override
     public Optional<Product> delete(Long aLong) {
-        return Optional.empty();
+
+        var product = findById(aLong);
+        jpaProductRepository.deleteById(aLong);
+        return product;
     }
 }
