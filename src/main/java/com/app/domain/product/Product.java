@@ -33,4 +33,7 @@ public class Product extends BaseEntity {
         return price.multiply(discount.reverse().toString());
     }
 
+    public String getName() {
+        return name;
+    }
 }

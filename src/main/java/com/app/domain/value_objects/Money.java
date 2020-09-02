@@ -45,7 +45,7 @@ public class Money {
     }
 
     private BigDecimal init(String value) {
-        if (value == null || !value.matches("(\\d+\\D)?\\d+")) {
+        if (value == null || !value.matches("(\\d+\\.)?\\d+")) {
             throw new MoneyException("money value is not correct");
         }
         return new BigDecimal(value);
