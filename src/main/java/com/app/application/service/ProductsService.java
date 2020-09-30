@@ -47,4 +47,13 @@ public class ProductsService {
                 .map(Mappers::fromProductToGetProductDto)
                 .collect(Collectors.toList());
     }
+
+    public GetProductDto getOneProduct(Long id) {
+        if (id == null) {
+            throw new IllegalStateException("exception");
+        }
+        return productRepository.findById(id)
+                .map(Mappers::fromProductToGetProductDto)
+                .orElseThrow(() -> new ProductsServiceException("NO FOUND PRODUCT"));
+    }
 }
