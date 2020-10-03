@@ -41,10 +41,12 @@ public class Money {
     }
 
     public Money multiply(String value) {
+        System.out.println(value);
         return new Money(this.value.multiply(init(value)));
     }
 
     private BigDecimal init(String value) {
+//        System.out.println(value);
         if (value == null || !value.matches("(\\d+\\.)?\\d+")) {
             throw new MoneyException("money value is not correct");
         }

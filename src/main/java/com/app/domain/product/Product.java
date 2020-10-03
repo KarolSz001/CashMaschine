@@ -30,6 +30,7 @@ public class Product extends BaseEntity {
     private Discount discount;
 
     public Money totalPrice() {
+        //System.out.println(price.multiply(discount.reverse().toString()));
         return price.multiply(discount.reverse().toString());
     }
 

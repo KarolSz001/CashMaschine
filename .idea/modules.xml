@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/27_SpringBootRestApi2.iml" filepath="$PROJECT_DIR$/27_SpringBootRestApi2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/szot-ddd.iml" filepath="$PROJECT_DIR$/szot-ddd.iml" />
     </modules>
   </component>
 </project>
