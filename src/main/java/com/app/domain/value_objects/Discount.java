@@ -36,5 +36,9 @@ public class Discount {
         }
         return decimalValue;
     }
-
+    //////////////////////?????//////////////////// changed 1.0
+    @Override
+    public String toString() {
+        return  value.toString();
+    }
 }
