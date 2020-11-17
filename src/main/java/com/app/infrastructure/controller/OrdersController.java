@@ -20,10 +20,10 @@ public class OrdersController {
         return orderService.createOrder(createOrderDto);
     }
 
-//    @GetMapping
-//    public List<GetOrderDto> getAllOrders() {
-//        return orderService.getAllOrders();
-//    }
+    @GetMapping
+    public List<GetOrderDto> getAllOrders() {
+        return orderService.getAllOrders();
+    }
 //
 //    @GetMapping("/{id}")
 //    public GetOrderDto getOneOrder(@PathVariable Long id){
