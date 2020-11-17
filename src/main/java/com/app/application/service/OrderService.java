@@ -88,12 +88,12 @@ public class OrderService {
         return order.getId();
     }
 
-//    public List<GetOrderDto> getAllOrders(){
-//        return orderRepository
-//                .findAll()
-//                .stream()
-//                .map(Mappers::fromOrderToGetOrderDto)
-//                .collect(Collectors.toList());
-//    }
+    public List<GetOrderDto> getAllOrders(){
+        return orderRepository
+                .findAll()
+                .stream()
+                .map(Mappers::fromOrderToGetOrderDto)
+                .collect(Collectors.toList());
+    }
 
 }
