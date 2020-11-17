@@ -2,8 +2,10 @@ package com.app.application.service;
 
 
 import com.app.application.dto.CreateOrderDto;
+import com.app.application.dto.GetOrderDto;
 import com.app.application.exception.OrderServiceException;
 import com.app.application.exception.ProductsServiceException;
+import com.app.application.mapper.Mappers;
 import com.app.application.validator.CreateOrderDtoValidator;
 import com.app.domain.order.Order;
 import com.app.domain.order.OrderRepository;
@@ -17,6 +19,7 @@ import org.springframework.transaction.annotation.Transactional;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
@@ -84,5 +87,13 @@ public class OrderService {
         }
         return order.getId();
     }
+
+//    public List<GetOrderDto> getAllOrders(){
+//        return orderRepository
+//                .findAll()
+//                .stream()
+//                .map(Mappers::fromOrderToGetOrderDto)
+//                .collect(Collectors.toList());
+//    }
 
 }

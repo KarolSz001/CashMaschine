@@ -3,6 +3,7 @@ package com.app.domain.order;
 import com.app.domain.base.BaseEntity;
 import com.app.domain.order_position.OrderPosition;
 import com.app.domain.value_objects.Money;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
 
@@ -16,6 +17,7 @@ import java.util.List;
 @SuperBuilder
 @Entity
 @Table(name = "orders")
+@Getter
 public class Order extends BaseEntity {
 
     private LocalDate date;

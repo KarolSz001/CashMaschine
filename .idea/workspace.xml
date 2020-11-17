@@ -5,14 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12dfa086-9ab8-4717-a258-b6f4df3940be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/application/dto/CreateOrderDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/application/dto/GetOrderDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/application/exception/OrderServiceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/application/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/application/validator/CreateOrderDtoValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/infrastructure/controller/OrdersController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,19 +54,6 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SzotDddApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="szot-ddd" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.app.SzotDddApplication" />
@@ -98,6 +77,8 @@
       <workItem from="1605038797226" duration="1363000" />
       <workItem from="1605108241208" duration="1819000" />
       <workItem from="1605112420094" duration="6205000" />
+      <workItem from="1605539193218" duration="2014000" />
+      <workItem from="1605647956116" duration="653000" />
     </task>
     <servers />
   </component>
@@ -105,6 +86,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="712" y="349" key="#Notifications" timestamp="1605556038209">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="712" y="349" key="#Notifications/-1920.66.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1605556038209" />
     <state x="505" y="37" width="1294" height="874" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605113735039">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

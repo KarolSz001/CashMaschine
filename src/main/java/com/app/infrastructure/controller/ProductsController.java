@@ -20,9 +20,11 @@ public class ProductsController {
     }
 
     @GetMapping
-    public List<GetProductDto> getAll() {
+    public List<GetProductDto> getAllProducts() {
         return productsService.getAllProducts();
     }
+
+
     @GetMapping("/{id}")
     public GetProductDto getOneProduct(@PathVariable Long id){
         return productsService.getOneProduct(id);
