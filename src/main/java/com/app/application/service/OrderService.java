@@ -96,4 +96,16 @@ public class OrderService {
                 .collect(Collectors.toList());
     }
 
+    public GetOrderDto getOneOrder(Long id){
+        if( id == null){
+            throw new IllegalArgumentException("null arg");
+        }
+        return orderRepository
+                .findById(id)
+                .map(Mappers::fromOrderToGetOrderDto)
+                .orElseThrow(()-> new OrderServiceException("NO FOUND ORDER"));
+    }
+
+
+
 }

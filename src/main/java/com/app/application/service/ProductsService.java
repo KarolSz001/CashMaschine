@@ -50,7 +50,7 @@ public class ProductsService {
 
     public GetProductDto getOneProduct(Long id) {
         if (id == null) {
-            throw new IllegalStateException("exception");
+            throw new IllegalStateException("null arg");
         }
         return productRepository.findById(id)
                 .map(Mappers::fromProductToGetProductDto)
