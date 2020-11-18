@@ -24,11 +24,11 @@ public class OrdersController {
     public List<GetOrderDto> getAllOrders() {
         return orderService.getAllOrders();
     }
-//
-//    @GetMapping("/{id}")
-//    public GetOrderDto getOneOrder(@PathVariable Long id){
-//        return orderService.getOneOrder(id);
-//    }
+
+    @GetMapping("/{id}")
+    public GetOrderDto getOneOrder(@PathVariable Long id){
+        return orderService.getOneOrder(id);
+    }
 
 
 
