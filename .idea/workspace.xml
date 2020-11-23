@@ -5,19 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12dfa086-9ab8-4717-a258-b6f4df3940be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/application/dto/CreateUserDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/application/dto/GetUserDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/application/exception/UserServerException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/application/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/application/validator/CreateUserDtoValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/domain/user/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/domain/user/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/domain/user/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/infrastructure/repository/impl/UserRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/infrastructure/repository/jpa/JpaUserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/app/application/mapper/Mappers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/app/application/mapper/Mappers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,19 +56,6 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SzotDddApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="szot-ddd" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.app.SzotDddApplication" />
@@ -108,7 +83,7 @@
       <workItem from="1605647956116" duration="2641000" />
       <workItem from="1605684009715" duration="2750000" />
       <workItem from="1605718895604" duration="3505000" />
-      <workItem from="1605992098617" duration="2496000" />
+      <workItem from="1605992098617" duration="3511000" />
     </task>
     <servers />
   </component>
@@ -176,10 +151,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="196" height="457" key="HiddenNamespacesPopup/-1920.66.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1605113386724" />
-    <state x="-1187" y="66" width="1183" height="1017" key="dock-window-1" timestamp="1605993129043">
+    <state x="-1214" y="66" width="1210" height="1017" key="dock-window-1" timestamp="1605995482818">
       <screen x="-1920" y="66" width="1920" height="1050" />
     </state>
-    <state x="-1187" y="66" width="1183" height="1017" key="dock-window-1/-1920.66.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1605993129043" />
+    <state x="-1214" y="66" width="1210" height="1017" key="dock-window-1/-1920.66.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1605995482818" />
     <state x="300" y="56" width="1214" height="698" key="dock-window-2" timestamp="1605115841217">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
